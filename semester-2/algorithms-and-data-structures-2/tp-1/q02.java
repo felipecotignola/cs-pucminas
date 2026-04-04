@@ -24,14 +24,12 @@ public class q2 {
 
     public static void main(String[] args){
 
-        // Fixed seed for deterministic behavior
+        // Fixed seed for deterministic output
         Random rand = new Random(4);
 
         Scanner sc = new Scanner(System.in);
-
         String string = sc.nextLine();
 
-        // Process input until "FIM" is reached
         while(!string.equals("FIM")){
             sort(string, rand);
             string = sc.nextLine();
