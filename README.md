@@ -1,10 +1,4 @@
-# CS @ PUC Minas
-
-> Building strong foundations in Computer Science.
-
-This repository contains my coursework, assignments, and implementations developed during my Computer Science degree at PUC Minas.
-
-## 📚 About
+# CS at PUC Minas
 
 Here I document my progress through different semesters, focusing on algorithms, data structures, and problem-solving.
 
