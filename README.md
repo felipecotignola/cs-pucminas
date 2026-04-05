@@ -15,8 +15,6 @@ Here I document my progress through different semesters, focusing on algorithms,
 * Recursion and problem solving
 * String and array manipulation
 
-```
-
 ## 🚀 Goals
 
 * Strengthen problem-solving skills
