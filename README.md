@@ -2,13 +2,6 @@
 
 Here I document my progress through different semesters, focusing on algorithms, data structures, and problem-solving.
 
-## 🧠 Focus Areas
-
-* Algorithm design and analysis
-* Data structures fundamentals
-* Recursion and problem solving
-* String and array manipulation
-
 ## 🚀 Goals
 
 * Strengthen problem-solving skills
@@ -19,7 +12,3 @@ Here I document my progress through different semesters, focusing on algorithms,
 
 This repository is continuously updated as I progress through my studies.
 
-## 👨‍💻 Author
-
-Felipe Cotignola
-Computer Science Student @ PUC Minas
