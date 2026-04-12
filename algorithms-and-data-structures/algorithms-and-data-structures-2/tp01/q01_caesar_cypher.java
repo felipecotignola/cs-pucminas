@@ -2,24 +2,26 @@ import java.util.Scanner;
 
 public class q1 {
 
-    // Shifts each character in the string by +3 (Caesar cipher style)
-    public static void criptografar(String string){
+    // Applies a Caesar cipher shifting each character by +3
+    public static void criptografar(String string) {
         char[] array = new char[string.length()];
 
-        for(int i = 0; i < string.length(); i++){
-            array[i] = (char)(string.charAt(i) + 3); // shift character
+        for (int i = 0; i < string.length(); i++) {
+            char letra = (char)(string.charAt(i) + 3);
+            array[i] = letra;
         }
 
-        System.out.println(new String(array)); // print result
+        String stringfinal = new String(array);
+        System.out.println(stringfinal);
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Read multiple lines until EOF
-        while(sc.hasNextLine()){
-            String input = sc.nextLine();
-            criptografar(input); // process each line
+        // Reads input until EOF and encrypts each line
+        while (sc.hasNextLine()) {
+            String string = sc.nextLine();
+            criptografar(string);
         }
 
         sc.close();
