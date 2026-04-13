@@ -25,8 +25,7 @@ public class q8 {
                 }
             }
 
-            return contMaiuscula >= 1 && contMinuscula >= 1 &&
-                   contNumero >= 1 && contEspecial >= 1;
+            return contMaiuscula >= 1 && contMinuscula >= 1 && contNumero >= 1 && contEspecial >= 1;
         }
 
         return false;
