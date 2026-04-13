@@ -20,7 +20,7 @@ public class q8 {
                 else if(string.charAt(i) >= '0' && string.charAt(i) <= '9'){
                     contNumero++;
                 }
-                else{
+                else if(string.charAt(i)!= ' '){
                     contEspecial++;
                 }
             }
