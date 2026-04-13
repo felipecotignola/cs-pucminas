@@ -75,35 +75,36 @@ public class q3 {
             }
         }
 
-        return numeros + virgulas == string.length() && virgulas <= 1;
+        return numeros>0 && numeros + virgulas == string.length() && virgulas <= 1;
     }
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        String string = sc.nextLine();
+        while(sc.hasNextLine()){
+    String string = sc.nextLine();
 
-        if(Ifvogal(string)){
-            System.out.print("SIM ");
-        } else {
-            System.out.print("NAO ");
-        }
-
-        if(Ifconsoante(string)){
-            System.out.print("SIM ");
-        } else {
-            System.out.print("NAO ");
-        }
-
-        if(IfInt(string)){
-            System.out.print("SIM ");
-        } else {
-            System.out.print("NAO ");
-        }
-
-        if(Ifreal(string)){
-            System.out.print("SIM ");
-        } else {
-            System.out.println("NAO ");
-        }
+    if(Ifvogal(string)){
+        System.out.print("SIM ");
+    } else {
+        System.out.print("NAO ");
     }
+
+    if(Ifconsoante(string)){
+        System.out.print("SIM ");
+    } else {
+        System.out.print("NAO ");
+    }
+
+    if(IfInt(string)){
+        System.out.print("SIM ");
+    } else {
+        System.out.print("NAO ");
+    }
+
+    if(Ifreal(string)){
+        System.out.println("SIM");
+    } else {
+        System.out.println("NAO");
+    }
+}
 }
